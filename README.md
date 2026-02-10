@@ -6,9 +6,12 @@
 * Изучен синтаксис разметки Markdown.
 ## Пример кода на Python
 В ходе работы я написала скрипт, который выполняет простые математические действия: 
-```# Моя первая программа 
+``` python
+# Моя первая программа 
 user_name = "Студент"
 number_a = 15
 number_b = 7
+
 print(f"Привет, {user_name}!")
-print(f"Сумма чисел {number_a} и {number_b} равна {number_a + number_b}")```
+print(f"Сумма чисел {number_a} и {number_b} равна {number_a + number_b}")
+```
