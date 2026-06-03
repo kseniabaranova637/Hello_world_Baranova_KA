@@ -1,0 +1,13 @@
+dnk = input("Введите последовательность ДНК: ").upper()
+count_A = dnk.count("A")
+count_T = dnk.count("T")
+count_G = dnk.count("G")
+count_C = dnk.count("C")
+dlin = count_A + count_T + count_G + count_C
+print("== Анализ последовательности ДНК ==\n")
+print("Подсчёт нуклеотидов: \n")
+print(f"A: {count_A}")
+print(f"T: {count_T}")
+print(f"G: {count_G}")
+print(f"C: {count_C}")
+print(f"Общая длина: {dlin} нуклеотидов")

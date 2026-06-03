@@ -1,0 +1,8 @@
+giru_str = input("Введите массу жиров в продукте(г):")
+uglevod_str = input("Введите массу углеводов в продукте(г):")
+belki_str = input("Введите массу белков в продукте(г):")
+giru = int(giru_str)
+uglevod = int(uglevod_str)
+belki = int(belki_str)
+calories = (belki * 4) + (giru * 9) + (uglevod * 4)
+print(f"{calories}")
